@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Quiz</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<body>
+    <div class="background">
+        <div class="box">
+            <h2 >Score -> <span id="score">0</span></h2>
+            <h3 id="question">Q. What is 8 Mutliply by 4?</h3>
+            <form id="form" onsubmit="return submitAnswer(event)";>
+                <input id="input" type="number" required="">
+                <button class="btn">submit</button>
+            </form>
+            <p id="feedback"></p>
+        </div>
+      
+    </div>
+    
+</body>
+</html>
